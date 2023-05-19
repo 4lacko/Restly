@@ -40,7 +40,7 @@ struct ContentView: View {
                     Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 1...20)
                 }
             }
-            .navigationTitle("BetterRest")
+            .navigationTitle("Restly")
             .toolbar {
                 Button("Calculate", action: calculateBedtime)
             }

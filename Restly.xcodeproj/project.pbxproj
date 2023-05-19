@@ -11,6 +11,7 @@
 		3BDA02F42A171415009210AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA02F32A171415009210AD /* ContentView.swift */; };
 		3BDA02F62A171416009210AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA02F52A171416009210AD /* Assets.xcassets */; };
 		3BDA02F92A171416009210AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA02F82A171416009210AD /* Preview Assets.xcassets */; };
+		3BDA03002A1718D5009210AD /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA02FF2A1718D5009210AD /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3BDA02F32A171415009210AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BDA02F52A171416009210AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDA02F82A171416009210AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BDA02FF2A1718D5009210AD /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		3BDA02F02A171415009210AD /* Restly */ = {
 			isa = PBXGroup;
 			children = (
+				3BDA02FF2A1718D5009210AD /* SleepCalculator.mlmodel */,
 				3BDA02F12A171415009210AD /* RestlyApp.swift */,
 				3BDA02F32A171415009210AD /* ContentView.swift */,
 				3BDA02F52A171416009210AD /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDA03002A1718D5009210AD /* SleepCalculator.mlmodel in Sources */,
 				3BDA02F42A171415009210AD /* ContentView.swift in Sources */,
 				3BDA02F22A171415009210AD /* RestlyApp.swift in Sources */,
 			);
